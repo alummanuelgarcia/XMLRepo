@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE clientes SYSTEM "clientes.xsd">
+<clientes>
+    <sede codigo="A1234567">        
+        <nombreempleado>Juan</nombreempleado>
+        <fecha>12/12/2001</fecha>
+        <descripcion>Solvente</descripcion>
+        <cliente codigo="ABC 123">                       
+            <numviviendas>4</numviviendas>
+            <coste>5000</coste>
+            <resumen>Chalet pequeno</resumen>
+            <plazo>2 meses</plazo>
+        </cliente>
+    </sede>
+</clientes>
