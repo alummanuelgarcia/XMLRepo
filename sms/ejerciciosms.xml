@@ -1,31 +1,22 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE BDsms 
-[
-<!ELEMENT BDsms (sms*)>
-<!ELEMENT sms (telefono,fecha,hora,mensaje)>
-<!ELEMENT telefono (#PCDATA)>
-<!ELEMENT fecha (#PCDATA)
-<!ELEMENT hora (#PCDATA)>
-<!ELEMENT mensaje (#PCDATA)>
-]
->
+<!DOCTYPE clientes SYSTEM "ejerciciosms.dtd">
 <BDsms>
-<sms>
-    <telefono>655487836</telefono>
-    <fecha>14/2/2013</fecha>
-    <hora>10:55</hora>
-    <mensaje>Juego1</mensaje>
-</sms>    
-<sms>
-    <telefono>969487836</telefono>
-    <fecha>17/4/2012</fecha>
-    <hora>23:00</hora>
-    <mensaje>Juego2</mensaje>
-</sms>    
-<sms>
-    <telefono>78487836</telefono>
-    <fecha>3/7/2001</fecha>
-    <hora>10:12</hora>
-    <mensaje>Juego3</mensaje>
-</sms>    
+    <sms>
+        <telefono>655487836</telefono>
+        <fecha>14/2/2013</fecha>
+        <hora>10:55</hora>
+        <mensaje>Juego1</mensaje>
+    </sms>    
+    <sms>
+        <telefono>969487836</telefono>
+        <fecha>17/4/2012</fecha>
+        <hora>23:00</hora>
+        <mensaje>Juego2</mensaje>
+    </sms>    
+    <sms>
+        <telefono>78487836</telefono>
+        <fecha>3/7/2001</fecha>
+        <hora>10:12</hora>
+        <mensaje>Juego3</mensaje>
+    </sms>    
 </BDsms>
