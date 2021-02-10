@@ -8,7 +8,7 @@
                         <xs:sequence>
                             <xs:element name="codigo" type="xs:integer" />
                             <xs:element name="nombreempleado" type="xs:string" />
-                            <xs:element name="fecha" type="xs:string" />
+                            <xs:element name="fecha" type="xs:date" />
                             <xs:element name="descripcion" type="xs:string" />
                             <xs:element name="cliente" maxOccurs="unbounded">
                                 <xs:complexType>
