@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE clientes SYSTEM "clientes.xsd">
-<clientes>
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="clientes.xsd">
     <sede codigo="A1234567">        
         <nombreempleado>Juan</nombreempleado>
         <fecha>12/12/2001</fecha>
