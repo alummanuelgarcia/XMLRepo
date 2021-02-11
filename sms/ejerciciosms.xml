@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE clientes SYSTEM "ejerciciosms.dtd">
+<!DOCTYPE BDsms SYSTEM "ejerciciosms.dtd">
 <BDsms>
     <sms>
         <telefono>655487836</telefono>
